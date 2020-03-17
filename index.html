@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Our Solar System</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <!--Header Section-->
+  <header id="header">
+  <nav class="zone purple sticky">
+      <ul class="main-nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#planet-grid">Planets</a></li>
+          <li><a href="">Our Team</a></li>
+          <li class="push"><a href="">Contact</a></li>
+  </ul>
+  </nav>
+  </header>
+  <!--End Header Section-->
+
+  <!--Main hero section-->
+  <section id="cover-hero">
+  <div class="container">
+    <h1 id="cover-title">Meet our solar system...</h1>
+    <video class="cover" id="galaxy-video" autoplay loop muted>
+      <source src="./img/happySun.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <h2 id="cover-subtitle">...Our Galactic Neighborhood</h2>
+    <nav class="solar-system-info">
+      <ul class="solar-system-info-items">
+          <li id="info-item"><h3>Planets|Dwarf Planets</h3><p>8 | 5</p></li>
+          <li id="info-item"><h3>Dwarf Planets</h3><p>5</p></li>
+          <li id="info-item"><h3>Moons</h3><p>200+</p></li>
+          <li id="info-item"><h3>Asteroids</h3><p>957,484</p></li>
+          <li id="info-item"><h3>Comets</h3><p>3,611</p></li>
+  </ul>
+  </nav>
+  </div>
+  </section>
+  <!--End main hero section -->
+
+  <!-- **** About Section **** -->
+  <section id="about">
+    <div class="zone about-container">
+      <h2 class="section-title">
+        Overview
+      </h2>
+      <div class="about-wrapper">
+        <div class="about-image">
+            <img
+              class="img-fluid rounded shadow-lg"
+              height="auto"
+              width="300px"
+              src="./img/solarSystemPic.png"
+              alt="Profile Image"
+            />
+        </div>
+          <div class="about-info">
+            <p class="about-info-text">
+              Our planetary system is located in an outer spiral arm of the Milky Way galaxy.
+            </p>
+            <p class="about-info-text">
+              Our solar system consists of our star, the Sun, and everything bound to it by gravity — the planets Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus and Neptune, dwarf planets such as Pluto, dozens of moons and millions of asteroids, comets and meteoroids. Beyond our own solar system, we have discovered thousands of planetary systems orbiting other stars in the Milky Way.
+            </p>
+            <p class="about-info-text">
+              Go farther. <a id="explore-more-link" href="#planet-grid">Explore Our Solar System in Depth › </a>
+            </p>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- /END About Section -->
+
+  <!--Planet Grid Section-->
+  <section id="planet-grid">
+    <div class="zone planet-grid-container">
+    <h2 class="section-title" id="planet-title">
+      Planets
+    </h2>
+  <div class="grid-wrapper">
+    <div class="box zone"><img src="./img/mercury.png"><p>Mercury</p></div>
+    <div class="box zone"><img src="./img/venus.png"><p>Venus</p></div>
+    <div class="box zone"><img src="./img/earth.png"><p>Earth</p></div>
+    <div class="box zone"><img src="./img/mars.png"><p>Mars</p></div>
+    <div class="box zone"><img src="./img/jupiter.png"><p>Jupiter</p></div>
+    <div class="box zone"><img src="./img/saturn.png"><p>Saturn</p></div>
+    <div class="box zone"><img src="./img/uranus.png"><p>Uranus</p></div>
+    <div class="box zone"><img src="./img/neptune.png"><p>Neptune</p></div>
+    <div class="box zone"><img src="./img/pluto.png"><p>404 Error</p></div>
+  </div>
+</div>
+  </section>
+  <!--End Planet Grid Section-->
+
+  <section id="more-destinations-carousel">
+    <div class="zone carousel-container">
+      <h2 class="section-title" id="carousel-title">
+        More Destinations
+      </h2>
+      <div id="carousel">
+        <figure id="spinner">
+          <a href="https://solarsystem.nasa.gov/solar-system/sun/overview/"><img src="img/sun.png" alt></a>
+          <img src="img/asteroids.png" alt>
+          <img src="img/oortCloud.png" alt>
+          <img src="img/ceres.png" alt>
+          <img src="img/planetX.png" alt>
+          <img src="img/eris.png" alt>
+          <img src="img/makemake.png" alt>
+          <img src="img/milkyWay.png" alt>
+        </figure>
+      </div>
+      <span style="float:left" class="ss-icon" onclick="galleryspin('-')">&lt;</span>
+      <span style="float:right" class="ss-icon" onclick="galleryspin('')">&gt;</span>
+    </div>
+  </section>
+
+  <!--Footer Section-->
+  <footer class="zone inverse-purple">
+    <div id="footer-info">
+    <h5>Brough to you by the the gracious warmth of our sun. Info from <a id="nasa-link" href="https://solarsystem.nasa.gov/solar-system/our-solar-system/overview/">nasa.gov</a></h5>
+    </div>
+  </footer>
+  <!--End Footer Section-->
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "solarsystem",
+  "version": "1.0.0",
+  "description": "A website with information about our solar system to practice building responsive applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Austin Gieselman",
+  "license": "ISC"
+}
